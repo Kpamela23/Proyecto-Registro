@@ -1,0 +1,27 @@
+div{
+  background-color: rgba(248, 244, 244, 0.897);
+  width: 500px;
+  height: 700px;
+  color: rgb(0, 0, 0);
+  padding: 50px 50px 50px 50px;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+}
+input[type="text"], input[type="password"]{
+  background-color: #e2d669ec;
+  width: 100%;
+  font-size: 20px;
+  border: 0;
+  border-radius: 5px;
+  padding: 15px;
+  box-sizing: border-box;
+  color: #111010;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.boton{
+  margin-inline-start: 110px
+}
