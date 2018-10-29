@@ -1,3 +1,4 @@
+/*Estilos Estudiantes--------------------*/
 div{
   background-color: rgba(248, 244, 244, 0.897);
   width: 500px;
@@ -30,8 +31,11 @@ input[type="text"], input[type="password"]{
   margin-inline-start: 150px;
 } 
 
-
-/*Estilos Estudiantes--------------------*/
+footer{
+  margin-inline-start: 800px;
+  color: rgb(255, 255, 255);
+ 
+}
 
 
 /*Estilos Maestros--------------------*/
