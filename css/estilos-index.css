@@ -2,56 +2,17 @@
     background-color: #151a2e;
 }
 
-.carousel-fade {
-    .carousel-inner {
-        .item {
-            transition-property: opacity;
-        }
-        
-        .item,
-        .active.left,
-        .active.right {
-            opacity: 0;
-        }
 
-        .active,
-        .next.left,
-        .prev.right {
-            opacity: 1;
-        }
-
-        .next,
-        .prev,
-        .active.left,
-        .active.right {
-            left: 0;
-            transform: translate3d(0, 0, 0);
-        }
-    }
-
-    .carousel-control {
-        z-index: 2;
-    }
+.nav-item{
+    text-align: center;
+    padding: 0px 50px;
+    line-height: 10px;
 }
 
-
-
-html, 
-body, 
-.carousel, 
-.carousel-inner, 
-.carousel-inner .item {
-    height: 100%;
+#Contenido{
+    margin: 0 auto;
 }
 
-.item:nth-child(1) {
-    background-image: url(img/fondo-estudiantes.jpeg);
-}
-
-.item:nth-child(2) {
-    background-image: url(img/fondo-estudiantes.jpeg);
-}
-
-.item:nth-child(3) {
-    background-image: url(img/fondo-estudiantes.jpeg);
+h5{
+    text-align: center;
 }
