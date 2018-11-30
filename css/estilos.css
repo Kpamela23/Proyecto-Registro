@@ -48,3 +48,16 @@ h5{
 a{
     color: black;
 }
+
+aside{
+    background-color: #151a2e;
+    float: left;
+    width: 50%;
+}
+
+#imagen{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
