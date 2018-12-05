@@ -1,42 +1,50 @@
-/*Estilos Estudiantes--------------------*/
-div{
-  background-color: rgba(248, 244, 244, 0.897);
-  width: 500px;
-  height: 700px;
-  color: rgb(0, 0, 0);
-  padding: 50px 50px 50px 50px;
-  border-radius: 10px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 100px;
-  border: 10px;
-  border-color: rgb(12, 11, 11);
-
-}
-input[type="text"], input[type="password"]{
-  background-color: #e2d669ec;
-  width: 100%;
-  font-size: 20px;
-  border: 0;
-  border-radius: 5px;
-  padding: 15px;
-  box-sizing: border-box;
-  color: #111010;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  border-color: rgb(12, 11, 11);
-}
-
-.boton{
-  margin-inline-start: 150px;
-} 
-
-footer{
-  margin-inline-start: 800px;
-  color: rgb(255, 255, 255);
- 
+#contenedor-formulario{
+    border-color: #292828;
+    text-align: center;
+    width: 450px;
+    padding: 40px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: 70px;
+    
 }
 
 
-/*Estilos Maestros--------------------*/
+.imagen:hover {filter: opacity(.5);}
 
+#barranav{
+    background-color: #151a2e;
+}
+
+
+.nav-item{
+    text-align: center;
+    padding: 0px 15px;
+    line-height: 10px;
+}
+
+#Contenido{
+    margin: 0 auto;
+}
+
+h5{
+    text-align: center;
+}
+
+.card{
+    border-color: white;
+}
+
+.card-body{
+    text-align: center;
+}
+
+.card-text{
+    color: #7d7d80;
+}
+
+a{
+    color: black;
+}
