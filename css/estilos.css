@@ -47,21 +47,4 @@ h5{
 
 a{
     color: black;
-<<<<<<< HEAD
 }
-=======
-}
-
-aside{
-    background-color: #151a2e;
-    float: left;
-    width: 50%;
-}
-
-#imagen{
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    z-index: -1;
-}
->>>>>>> c8ce0fa99d9b6d801f280376d133af7c4c923d70
