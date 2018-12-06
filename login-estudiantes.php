@@ -15,6 +15,7 @@
       <?php
         
         include('php/paginas/header.php');
+        include('php/paginas/navbar.php');
       
       ?>
 
