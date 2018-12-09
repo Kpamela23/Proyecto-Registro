@@ -1,13 +1,25 @@
-<footer style="margin-bottom: 45px; clear: both;">
-            <hr>
-            <div class="col-md-12 col-sm-12 col-xs-12" style="padding: 0px 0px 0px 200px;">
-              <p>Encuentranos en</p>
-              <a target="_blank" href="https://www.facebook.com/unahoficial/"><img src="img/facebook-logo.png" style="width: 50px; height: 50px;"></a>
-              <a target="_blank" href="https://www.instagram.com/unahoficial/"><img src="img/logo-instagram.png" style="width: 50px; height: 50px;"></a>
-              <a target="_blank" href="https://twitter.com/unahoficial?lang=es"><img src="img/twitter-logo.png" style="width: 50px; height: 50px;"></a>
-            </div><br>
+<footer style="margin-bottom: auto; clear: both; background-color:#3F4354; background-image: url(img/footer-bg.png); background-size: cover">
+  <div style="padding: 40px" class="container">
+  
+            
+
+            <div style="color: white; margin-right: auto; margin-left: 50px;" class="container col-4" >
+                       <h6>Dirección</h6>
+                       <p>Bulevar Suyapa,Tegucigalpa, M.C.D, Honduras</p>
+                       <h6>Correo</h6>
+                       <p>info@unah.edu.hn</p>
+                       <h6>Teléfonos</h6>
+                       <p>2216-6100, 2216-5100, 2216-3000, 2216-7000</p>
+            </div>   
+
+            <div class="col-md-4 text-center" >
+            
+                <img src="img/logo-unah-blanco.png" >
+
+            </div>   
+            
             <!-- Button trigger modal -->
-            <div style="text-align:center">
+            <div style="text-align:center; margin-bottom: auto; ">
               <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
                 Contáctanos
               </button>
@@ -30,10 +42,17 @@
                        <h6>Teléfonos</h6>
                        <p>2216-6100, 2216-5100, 2216-3000, 2216-7000</p>
               </div>
-              <div class="modal-footer" style="background-color: #151a2e; border-color: #151a2e">
+              <div class="modal-footer" style="background-color: #151a2e; border-color: #151a2e; ">
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
               </div>
+              
+              </div>
+            
             </div>
+
+
+
           </div>
-        </div>
-    </footer>
+        
+  </div>
+</footer>

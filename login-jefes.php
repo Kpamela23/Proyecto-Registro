@@ -30,11 +30,15 @@
                           <form> 
                               <input type="text" name="num-cuenta" id="num-cuenta" placeholder="No. de Empleado"><br><br>
                               <input type="password" name="password" id="password" placeholder="Contraseña"><br><br>
-                              <button type="button" class="btn btn-outline-dark">Ingresar</button>
+                              <button type="button" class="btn btn-outline-dark" onclick="registrar()">Ingresar</button>
                           </form>
                       </div>
                   </div>
               </div>
+              <br>
+              <br>
+              <br>
+              <br>
   
   
   
@@ -47,6 +51,7 @@
 
 <script src="js/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<script src="js/validacion.js"></script>
 
 </body>
 </html>
