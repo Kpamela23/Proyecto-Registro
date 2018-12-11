@@ -96,7 +96,7 @@
                             </p>
                           </div>
                         </div> 
-                        &nbsp; &nbsp; &nbsp; &nbsp; <br><br>
+                        &nbsp; &nbsp; &nbsp; &nbsp; <br><br><br>
                         <div class="card">
                             <a href="#">
                                 <img class="card-img-top" src="img/mision.png" alt="Card image cap">
