@@ -24,25 +24,16 @@
 
         <br><br>
 
-<<<<<<< HEAD
         <div class="container" style="text-align: center">
             <h1 style="font-family: Candara;">Bienvenido(a): <?php echo $_SESSION["nombre"];  ?></h1>
         </div>
-=======
-        <h1>Bienvenido: <?php echo $_SESSION["nombre"];  ?></h1>
->>>>>>> 173af17d580e5fa6847aa78846ac9ad4aefe5f6a
         
         <br><br><br><br>
         <div class="container">
                 <div class="card-group">
                         <div class="card">
                             <a href="#">
-<<<<<<< HEAD
                               <img class="card-img-top imagen:hover" src="img/adicionar-estudiante.png" alt="Card image cap" >
-=======
-                              <img class="card-img-top imagen:hover" src="img/historial-modulo.png" alt="Card image cap" >
-                               <!-- <img class="card-img-top" src="img/historial-modulo.png" onmouseover="this.width=500;this.height=400;" onmouseout="this.width=200;this.height=150;" width="200" height="100" />-->
->>>>>>> 173af17d580e5fa6847aa78846ac9ad4aefe5f6a
                             </a>
                           <div class="card-body">
                             <h5 class="card-title">
@@ -53,11 +44,7 @@
                         </div> &nbsp; &nbsp; &nbsp; &nbsp;
                         <div class="card">
                             <a href="#">
-<<<<<<< HEAD
                                 <img class="card-img-top" src="img/adicionar-docente.png" alt="Card image cap">
-=======
-                                <img class="card-img-top" src="img/matricula-modulo.png" alt="Card image cap">
->>>>>>> 173af17d580e5fa6847aa78846ac9ad4aefe5f6a
                             </a>
                           <div class="card-body">
                             <h5 class="card-title">
@@ -68,11 +55,7 @@
                         </div>&nbsp; &nbsp; &nbsp; &nbsp;
                         <div class="card">
                             <a href="#">
-<<<<<<< HEAD
                                 <img class="card-img-top" src="img/creacion-secciones.png" alt="Card image cap">
-=======
-                                <img class="card-img-top" src="img/lab-modulo.png" alt="Card image cap">
->>>>>>> 173af17d580e5fa6847aa78846ac9ad4aefe5f6a
                             </a>
                           <div class="card-body">
                             <h5 class="card-title">
@@ -81,7 +64,6 @@
                             <p class="card-text">Nueva sección</p>
                           </div>
                         </div>
-<<<<<<< HEAD
                 </div>               
         </div>
       <br>
@@ -90,12 +72,6 @@
       <br>
       <br>
       <br>
-=======
-                </div> <br><br>
-               
-        </div>
-
->>>>>>> 173af17d580e5fa6847aa78846ac9ad4aefe5f6a
 
         <?php
 

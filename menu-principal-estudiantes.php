@@ -25,14 +25,9 @@
 
         <br><br>
 
-<<<<<<< HEAD
       <div class="container" style="text-align: center">
         <h1 style="font-family: Candara;">Bienvenido(a): <?php echo $_SESSION["nombre"];  ?></h1>
       </div>
-=======
-        <h1>Bienvenido: <?php echo $_SESSION["nombre"];  ?></h1>
-        
->>>>>>> 173af17d580e5fa6847aa78846ac9ad4aefe5f6a
 
         <br><br><br><br>
         <div class="container">
