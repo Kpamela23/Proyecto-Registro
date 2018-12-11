@@ -16,6 +16,7 @@
   
         include('php/paginas/header.php');
         include('php/paginas/navbar.php');
+       
 
       
       ?> 
@@ -69,33 +70,57 @@
       </div>
     </div>
     
+    <br>
+    <br>
+    <br><br>
     <br><br>
   
-    <aside>
-        
-            
-      <div style="padding: 0px 0px 0px 200px; margin-right: 100px;">
-      <h1 style="font-family:Times New Roman, Times, serif; justify-content:center;" >Calendario de Matricula</h1>
-      <img src="img/logo-puma.png" width="100" height="140">
-      <p>Consulta Aqui</p>
-      <a target="_blank" href="img/calendarioIII2018.png"><img src="img/calendarioIcono.jpg" style="width: 80px; height: 80px;"></a>
-    
-     
-      </div>
-      
-    </aside>
 
-    <aside>
-        <div style="padding: 0px 0px 0px 200px; margin-right: 45px;" >
-        <h1 style="font-family:Times New Roman, Times, serif;" >Calendario de Matricula</h1>
-        <img src="img/logo-puma.png" width="100" height="140">
-        <p>Consulta Aqui</p>
-        <a target="_blank" href="img/calendarioIII2018.png"><img src="img/calendarioIcono.jpg" style="width: 80px; height: 80px;"></a>
-      
+    <div class="container">
+                <div class="card-group">
+                        <div class="card">
+                            <a href="#">
+                              <img class="card-img-top " src="img/vision.png" alt="Card image cap" >
+                            </a>
+                          <div class="card-body">
+                            <p class="card-text" style="font-family: Candara; color: black;" align="justify"> 
+                            Una institución líder de la educación superior nacional e internacional; 
+                            protagonista en la transformación de la sociedad hondureña hacia el desarrollo humano sostenible con recursos 
+                            humanos del más alto nivel académico, científico y ético.
+                            <br>
+                            Una institución con un gobierno democrático, organizada en redes y descentralizada, 
+                            transparente en la rendición de cuentas, con una gestión académica y administrativo/ financiera, 
+                            participativa, estratégica, moderna y orientada hacia la calidad y la pertinencia de la educación, 
+                            la investigación y su vinculación con la sociedad hondureña y mundial, procesos basados en los nuevos paradigmas 
+                            de la ciencia y la educación.                          
+                            </p>
+                          </div>
+                        </div> 
+                        &nbsp; &nbsp; &nbsp; &nbsp; <br><br>
+                        <div class="card">
+                            <a href="#">
+                                <img class="card-img-top" src="img/mision.png" alt="Card image cap">
+                            </a>
+                          <div class="card-body">
+                            
+                            <p class="card-text" style="font-family: Candara; color: black;" align="justify">
+                            Somos una universidad estatal y autónoma; responsable constitucionalmente de organizar, dirigir y desarrollar 
+                            el tercer y cuarto nivel del sistema educativo nacional. Nuestro ámbito de producción y acción científica es universal. 
+                            Nuestro compromiso es contribuir a través de la formación de profesionales, la investigación y la vinculación universidad-sociedad 
+                            al desarrollo humano sostenible del país y por medio de la ciencia y la cultura que generamos, contribuir a que toda Honduras
+                            participe de la universalidad y a que se desarrolle en condiciones de equidad y humanismo, atendiendo la pertinencia académica para 
+                            las diversas necesidades regionales y el ámbito nacional.
+                            </p>
+                          </div>
+                        </div>
+                </div>
         </div>
-      </aside>
 
-    <br><br><br><br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
     
     <?php
 

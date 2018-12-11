@@ -1,3 +1,8 @@
+<?php 
+    session_start();  
+    if (!isset($_SESSION["usuario"]))
+        header("Location: no-autorizado.html");//Redireccion con PHP
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,17 +19,22 @@
         <?php
 
           include('php/paginas/header.php');
-          include('php/paginas/navbar.php');
+          include('php/paginas/navbar2.php');
 
         ?>
+
+        <br><br>
+
+      <div class="container" style="text-align: center">
+        <h1 style="font-family: Candara;">Bienvenido(a): <?php echo $_SESSION["nombre"];  ?></h1>
+      </div>
 
         <br><br><br><br>
         <div class="container">
                 <div class="card-group">
                         <div class="card">
                             <a href="#">
-                              <img class="card-img-top imagen:hover" src="img/historial-modulo.png" alt="Card image cap" >
-                               <!-- <img class="card-img-top" src="img/historial-modulo.png" onmouseover="this.width=500;this.height=400;" onmouseout="this.width=200;this.height=150;" width="200" height="100" />-->
+                              <img class="card-img-top" src="img/historial-modulo.png" alt="Card image cap" >
                             </a>
                           <div class="card-body">
                             <h5 class="card-title">
@@ -44,22 +54,14 @@
                             <p class="card-text">Realiza tu matricula del periodo</p>
                           </div>
                         </div>&nbsp; &nbsp; &nbsp; &nbsp;
-                        <div class="card">
-                            <a href="#">
-                                <img class="card-img-top" src="img/lab-modulo.png" alt="Card image cap">
-                            </a>
-                          <div class="card-body">
-                            <h5 class="card-title">
-                                <a href="#"> Matricula de Laboratorio</a>
-                            </h5>
-                            <p class="card-text">Realiza tu matricula de laboratorio</p>
-                          </div>
-                        </div>
+                        
+
                 </div> <br><br>
+
                 <div class="card-group">
                         <div class="card">
                             <a href="#">
-                                <img class="card-img-top" src="img/historial-modulo.png" alt="Card image cap">
+                                <img class="card-img-top" src="img/calificaciones.png" alt="Card image cap">
                             </a>
                           <div class="card-body">
                             <h5 class="card-title">
@@ -68,20 +70,10 @@
                             <p class="card-text"> Aqui podras ver tus caliicaciones del periodo</p>
                           </div>
                         </div> &nbsp; &nbsp; &nbsp; &nbsp;
+                        ;
                         <div class="card">
                             <a href="#">
-                                <img class="card-img-top" src="img/matricula-modulo.png" alt="Card image cap">
-                            </a>
-                          <div class="card-body">
-                            <h5 class="card-title">
-                                <a href="#">Programacion Academica</a>
-                            </h5>
-                            <p class="card-text">podras ver la Programacion Academica del siguiente periodo</p>
-                          </div>
-                        </div>&nbsp; &nbsp; &nbsp; &nbsp;
-                        <div class="card">
-                            <a href="#">
-                                <img class="card-img-top" src="img/lab-modulo.png" alt="Card image cap">
+                                <img class="card-img-top" src="img/evaluar.png" alt="Card image cap">
                             </a>
                           <div class="card-body">
                             <h5 class="card-title">
@@ -92,6 +84,11 @@
                         </div>
                 </div>
         </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
 
 
         <?php

@@ -11,9 +11,10 @@
                   <a class="nav-link" href="https://campusvirtual.unah.edu.hn/" target="_blank">Campus Virtual</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="iniciar-sesion.php">Iniciar Sesión</a>
+                  <a class="nav-link" href="cerrar-sesion.php">Cerrar Sesión</a>
                 </li>
                 
               </ul>
             </div>
     </nav>
+
