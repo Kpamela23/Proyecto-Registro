@@ -6,6 +6,7 @@
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
+<<<<<<< HEAD
               <ul class="navbar-nav">
                 <li class="nav-item">
                   <a class="nav-link" href="https://campusvirtual.unah.edu.hn/" target="_blank">Campus Virtual</a>
@@ -16,5 +17,15 @@
                 
               </ul>
             </div>
+=======
+              <ul class="navbar-nav side-navegation">
+                
+             <a class="nav-link " href="cerrar-sesion.php">Cerrar Sesión</a>  
+                
+              </ul>
+            </div>
+
+
+>>>>>>> 173af17d580e5fa6847aa78846ac9ad4aefe5f6a
     </nav>
 
