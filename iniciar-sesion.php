@@ -14,8 +14,8 @@
           
       <?php
         
-        include('php/paginas/header.php');
-        include('php/paginas/navbar.php');
+        include('php/header.php');
+        include('php/navbar.php');
       
       ?>
 
@@ -42,7 +42,7 @@
             <br>
 
             <?php
-              include('php/paginas/footer.php');
+              include('php/footer.php');
             ?>
 
             <script type="text/javascript" src="js/jquery.min.js"></script>

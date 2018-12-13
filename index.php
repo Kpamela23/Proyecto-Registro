@@ -14,8 +14,8 @@
     
       <?php
   
-        include('php/paginas/header.php');
-        include('php/paginas/navbar.php');
+        include('php/header.php');
+        include('php/navbar.php');
        
 
       
@@ -79,9 +79,7 @@
     <div class="container">
                 <div class="card-group">
                         <div class="card">
-                            <a href="#">
                               <img class="card-img-top " src="img/vision.png" alt="Card image cap" >
-                            </a>
                           <div class="card-body">
                             <p class="card-text" style="font-family: Candara; color: black;" align="justify"> 
                             Una institución líder de la educación superior nacional e internacional; 
@@ -98,9 +96,7 @@
                         </div> 
                         &nbsp; &nbsp; &nbsp; &nbsp; <br><br><br>
                         <div class="card">
-                            <a href="#">
                                 <img class="card-img-top" src="img/mision.png" alt="Card image cap">
-                            </a>
                           <div class="card-body">
                             
                             <p class="card-text" style="font-family: Candara; color: black;" align="justify">
@@ -124,7 +120,7 @@
     
     <?php
 
-      include('php/paginas/footer.php');
+      include('php/footer.php');
 
     ?>
     

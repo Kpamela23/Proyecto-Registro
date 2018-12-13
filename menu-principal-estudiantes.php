@@ -18,8 +18,8 @@
 
         <?php
 
-          include('php/paginas/header.php');
-          include('php/paginas/navbar2.php');
+          include('php/header.php');
+          include('php/navbar2.php');
 
         ?>
 
@@ -49,7 +49,7 @@
                             </a>
                           <div class="card-body">
                             <h5 class="card-title">
-                                <a href="matricula.html"> Matricula</a>
+                                <a href="matricula.php"> Matricula</a>
                             </h5>
                             <p class="card-text">Realiza tu matricula del periodo</p>
                           </div>
@@ -93,7 +93,7 @@
 
         <?php
 
-          include('php/paginas/footer.php');
+          include('php/footer.php');
       
         ?>
     

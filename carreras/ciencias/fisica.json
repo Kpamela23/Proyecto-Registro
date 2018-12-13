@@ -1,0 +1,13 @@
+{"codigo":"EG-011", "asignatura":"Español", "uv":"4", "requisito":"ninguno", "departamento":"Letras"}
+{"codigo":"MM-110", "asignatura":"Matemática I", "uv":"5", "requisito":"ninguno", "departamento":"Matemática"}
+{"codigo":"MM-111", "asignatura":"Geometría y Trigonometría", "uv":"5", "requisito":"ninguno", "departamento":"Matemática"}
+{"codigo":"IN-101", "asignatura":"Ingles I", "uv":"3", "requisito":"ninguno", "departamento":"Lenguas"}
+{"codigo":"BI-130", "asignatura":"Educación Ambiental", "uv":"3", "requisito":"ninguno", "departamento":"Biologia"}
+{"codigo":"MM-201", "asignatura":"Cálculo I", "uv":"5", "requisito":"MM-110, MM-111", "departamento":"Matemática"}
+{"codigo":"MM-211", "asignatura":"Vectores y Matrices", "uv":"3", "requisito":"MM-110, MM-111", "departamento":"Matemática"}
+{"codigo":"QQ-100", "asignatura":"Quimica Fundamental", "uv":"4", "requisito":"MM-110, MM-111", "departamento":"Quimica"}
+{"codigo":"IN-102", "asignatura":"Ingles II", "uv":"", "requisito":"IN-101", "departamento":"Lenguas"}
+{"codigo":"FF-101", "asignatura":"Filosofía", "uv":"4", "requisito":"ninguno", "departamento":"Filosofía"}
+{"codigo":"MM-314", "asignatura":"Programación", "uv":"3", "requisito":"MM-211", "departamento":"Matemática"}
+{"codigo":"MM-202", "asignatura":"Cálculo II", "uv":"5", "requisito":"MM-201", "departamento":"Matemática"}
+{"codigo":"IN-103", "asignatura":"Ingles III", "uv":"3", "requisito":"IN-102", "departamento":"Lenguas"}
