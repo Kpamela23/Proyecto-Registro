@@ -22,6 +22,9 @@
         include('php/navbar2.php');
 
     ?>  
+    <br>
+    <br>
+    <br>
 
     <div class="container" style="text-align: center">
           <h1 style="font-family: Candara;">Nombre: <?php echo $_SESSION["nombre"]?></h1>
@@ -37,7 +40,7 @@
         <table style="margin-left:auto; margin-right:auto" >
             
             <thead style="border:1px solid; text-align: center">
-                <td><h5> <b> Código  </b>&nbsp; &nbsp;  &nbsp;  &nbsp;  &nbsp;</h5></td>
+                <td ><h5> <b> Código  </b>&nbsp; &nbsp;  &nbsp;  &nbsp;  &nbsp;</h5></td>
                 <td><h5><b>Asignatura </b> &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;</h5></td> 
                 <td><h5><b>Sección  </b>&nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;</h5></td> 
                 <td><h5><b> Días </b>&nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;</h5></td> 

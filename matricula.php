@@ -52,7 +52,7 @@
 
                           <!-- Button trigger modal -->
                           <button type="button" class="btn btn-outline-dark" data-toggle="modal" data-target="#exampleModalCenter">
-                            Launch demo modal
+                            Matricular
                           </button>
 
                           <!-- Modal -->
@@ -60,7 +60,7 @@
                             <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
                               <div class="modal-content">
                                 <div class="modal-header">
-                                    <h5 class="modal-title" id="exampleModalCenterTitle">Matricular Clases</h5>
+                                    <h5 class="modal-title" id="exampleModalCenterTitle">Matricular Clases: <?php echo $_SESSION["carrera"]?></h5>
                                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                       <span aria-hidden="true">&times;</span>
                                     </button>
@@ -68,37 +68,34 @@
                                   <div class="modal-body">
                                   <div class="container">
                                     <div class="row">
-                                      <div class="col-md-4 col-sm-12 col-xs 12" style="text-align: center; font-family: Candara">
-                                        <div>
-                                          <h5> <b> Departamento</b></h5>
-                                        </div>
-                                        <br>
-                                        <select name="departamento" id="departamento">
-                                          <option value="0">seleccione</option>
-                                          <option value="1">Matemática</option>
-                                          <option value="2">Letras</option>
-                                          <option value="3">Lenguas</option>
-                                          <option value="4">Biologia</option>
-                                          <option value="5">Quimica</option>
-                                          <option value="6">Filosofía</option>
-                                        </select>
-                                      </div>
 
-                                      <div class="col-md-4 col-sm-12 col-xs 12" style="text-align: center; font-family: Candara">
+                                      <div class="col-md-6 col-sm-12 col-xs 12" style="text-align: center; font-family: Candara">
                                         <div>
                                           <h5><b>Clase</b></h5>
                                         </div>
                                         <br>
-                                        <select name="clase" id="clase">
-                                          <option value="0">seleccione</option>
-                                            
+                                        <select class="form-control" name="clase" id="clase">
+                                  
+                                        <?php
+                                          $carrera = $_SESSION['carrera'];
+                                          $archivo = fopen("carreras/$carrera.json","r");
+                                          while(($linea = fgets($archivo))){
+                                              $registro = json_decode($linea,true);
+                                              echo  '<option>'.$registro['codigo'] . "   " . $registro['asignatura'].'</option>';  
+                                              }
+                                              fclose($archivo);
+                                            ?>
                                         </select>
                                       </div>
 
-                                      <div class="col-md-4 col-sm-12 col-xs 12">
+                                      <div class="col-md-6 col-sm-12 col-xs 12">
                                         <div>
                                           <h5> Sección</h5>
                                         </div>
+                                        <br>
+                                        <select class="form-control" name="seccion" id="seccion">
+                                          <option value="0">seleccione</option>
+                                        </select>
                                         
                                       </div>
                                     </div>
@@ -145,5 +142,6 @@
 
 <script src="js/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<script src="js/controlador.js"></script>
 </body>
 </html>

@@ -1,0 +1,53 @@
+{"codigo":"EG-011", "asignatura":"Español", "uv":"4", "requisito":"ninguno"}
+{"codigo":"BI-130", "asignatura":"Educación Ambiental", "uv":"3", "requisito":"ninguno"}
+{"codigo":"SC-101", "asignatura":"Sociologia", "uv":"4", "requisito":"ninguno"}
+{"codigo":"HH-101", "asignatura":"Historia de Honduras", "uv":"4", "requisito":"ninguno"}
+{"codigo":"IN-101", "asignatura":"Ingles I", "uv":"3", "requisito":"ninguno"}
+{"codigo":"IN-102", "asignatura":"Ingles II", "uv":"", "requisito":"IN-101"}
+{"codigo":"IN-103", "asignatura":"Ingles III", "uv":"3", "requisito":"IN-102"}
+{"codigo":"FF-101", "asignatura":"Filosofía", "uv":"4", "requisito":"ninguno"}
+{"codigo":"FF-201", "asignatura":"Logica", "uv":"3", "requisito":"FF-101"}
+{"codigo":"QQ-100", "asignatura":"Quimica Fundamental", "uv":"4", "requisito":"MM-110, MM-111"}
+{"codigo":"MM-110", "asignatura":"Matemática I", "uv":"5", "requisito":"ninguno"}
+{"codigo":"MM-111", "asignatura":"Geometría y Trigonometría", "uv":"5", "requisito":"ninguno"}
+{"codigo":"MM-201", "asignatura":"Cálculo I", "uv":"5", "requisito":"MM-110, MM-111"}
+{"codigo":"MM-211", "asignatura":"Vectores y Matrices", "uv":"3", "requisito":"MM-110, MM-111"}
+{"codigo":"MM-314", "asignatura":"Programación", "uv":"3", "requisito":"MM-211"}
+{"codigo":"MM-202", "asignatura":"Cálculo II", "uv":"5", "requisito":"MM-201"}
+{"codigo":"MM-411", "asignatura":"Ecuaciones Diferenciales", "uv":"3", "requisito":"MM-202"}
+{"codigo":"MM-408", "asignatura":"Calculo III", "uv":"5", "requisito":"MM-202"}
+{"codigo":"MM-502", "asignatura":"Variable Compleja", "uv":"3", "requisito":"MM-202"}
+{"codigo":"MM-412", "asignatura":"Analisis Numerico", "uv":"3", "requisito":"MM-411, MM-314"}
+{"codigo":"MM-401", "asignatura":"Estadistica", "uv":"3", "requisito":"MM-201"}
+{"codigo":"FS-100", "asignatura":"Fisica I", "uv":"5", "requisito":"MM-201"}
+{"codigo":"FS-200", "asignatura":"Fisica II", "uv":"5", "requisito":"FS-100, MM-202"}
+{"codigo":"FS-381", "asignatura":"Mecanica I", "uv":"4", "requisito":"FS-200,MM-411"}
+{"codigo":"FS-321", "asignatura":"Elec. y Magnetismo I", "uv":"5", "requisito":"FS-200, MM-411"}
+{"codigo":"FS-382", "asignatura":"Mecanica II", "uv":"4", "requisito":"FS-381"}
+{"codigo":"FS-351", "asignatura":"Met. Fisco-Matematico", "uv":"4", "requisito":"MM-411, FS-200"}
+{"codigo":"FS-371", "asignatura":"Fisica Moderna", "uv":"4", "requisito":"FS-381, MM-411"}
+{"codigo":"FS-415", "asignatura":"Elec. y Magnetismo II", "uv":"5", "requisito":"FS-321"}
+{"codigo":"FS-481", "asignatura":"Term. y Mec. Est. I", "uv":"4", "requisito":"MM-411, FS-351"}
+{"codigo":"FS-472", "asignatura":"Mecanica Cuantica I", "uv":"4", "requisito":"FS-351, FS-371"}
+{"codigo":"FS-492", "asignatura":"Lab. Avanzado I", "uv":"4", "requisito":"FS-371,  FS-321"}
+{"codigo":"FS-425", "asignatura":"Optica", "uv":"4", "requisito":"FS-415"}
+{"codigo":"FS-482", "asignatura":"Term. y Mec. Est. II", "uv":"4", "requisito":"FS-481, FS-472"}
+{"codigo":"FS-473", "asignatura":"Mec. Cuantica II", "uv":"4", "requisito":"FS-472"}
+{"codigo":"FS-611", "asignatura":"Elem. de Fisica Nuclear", "uv":"4", "requisito":"FS-472"}
+{"codigo":"FS-601", "asignatura":"Proc. de Señ. y Com.", "uv":"4", "requisito":"FS-425, FS-351"}
+{"codigo":"FS-517", "asignatura":"Fis. del Est. Solido", "uv":"4", "requisito":"FS-351, FS-482"}
+{"codigo":"FS-493", "asignatura":"Lab Avanzado II", "uv":"4", "requisito":"FS-492"}
+{"codigo":"FS-363", "asignatura":"Mec. del Med. Continuo", "uv":"4", "requisito":"FS-382"}
+{"codigo":"FS-700", "asignatura":"Seminario de Investigacion", "uv":"10", "requisito":"FS-611, FS-517"}
+{"codigo":"FS-626", "asignatura":"Geofisica I", "uv":"5", "requisito":"FS-472, FS-451"}
+{"codigo":"FS-627", "asignatura":"Geofisica II", "uv":"5", "requisito":"FS-626"}
+{"codigo":"FS-636", "asignatura":"Fisica de Metales I", "uv":"5", "requisito":"FS-472, FS-451"}
+{"codigo":"FS-637", "asignatura":"Fisica de Metales II", "uv":"5", "requisito":"FS-646"}
+{"codigo":"FS-646", "asignatura":"Fisica de Radiaciones I", "uv":"5", "requisito":"FS-472, FS-451"}
+{"codigo":"FS-647", "asignatura":"Fisica de Radiaciones II", "uv":"5", "requisito":"FS-646"}
+{"codigo":"FS-635", "asignatura":"Teoria ElectromagneticaI", "uv":"5", "requisito":"FS-472, FS-451"}
+{"codigo":"FS-650", "asignatura":"Topicos de Fisica Teorica", "uv":"5", "requisito":"FS-635"}
+{"codigo":"FS-620", "asignatura":"Astronomia Clasica y Mec. Celeste", "uv":"5", "requisito":"FS-472, FS-451"}
+{"codigo":"FS-621", "asignatura":"Introduccion a la Astrofisica", "uv":"5", "requisito":"FS-620"}
+{"codigo":"FS-622", "asignatura":"Energias Renovables", "uv":"5", "requisito":"FS-472, FS-451"}
+{"codigo":"FS-624", "asignatura":"Energia Solar", "uv":"5", "requisito":"FS-622"}
