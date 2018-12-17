@@ -1,32 +1,13 @@
 <?php
 
     class Estudiante extends Persona{
-        private $usuario;
-        private $password;
+
         private $carrera;
         private $centro;
 
-        public function __construct( $usuario = null, $password = null, $carrera = null, $centro = null ){
-            $this->usuario = $usuario;
-            $this->password = $password;
+        public function __construct( $carrera = null, $centro = null ){
             $this->carrera = $carrera;
             $this->centro = $centro;
-        }
-
-        public function getusuario(){
-            return $this->usuario;
-        }
-
-        public function setUsuario($usuario){
-            $this->usuario = $usuario;
-        }
-
-        public function getPassword(){
-            return $this->password;
-        }
-
-        public function setPassword($password){
-            $this->password = $password;
         }
 
         public function getCarrera(){
@@ -46,7 +27,11 @@
         }
 
         public function matricularClase(){
-            
+            $archivo = fopen("data/asignaturas-matriculadas.php","a+");
+
+            fwrite($archivo, json_encode($registro)."\n");
+            fclose($archivo);
+		    return json_encode($registro);
         }
 
     }

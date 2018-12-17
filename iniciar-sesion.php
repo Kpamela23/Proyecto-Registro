@@ -29,8 +29,8 @@
                     <div style="background-image: url(img/form-estudiante.jpeg); width: 450px; height: 300px; padding: 40px;">
                         <p>Ingresa tu numero de cuenta y tu contraseña</p>
                         <form> 
-                            <input type="text" name="usuario" id="usuario" placeholder="No. de Cuenta"><br><br>
-                            <input type="password" name="password" id="password" placeholder="Contraseña"><br><br>
+                            <input class="form-control" type="text" name="usuario" id="usuario" placeholder="No. de Cuenta"><br><br>
+                            <input class="form-control" type="password" name="password" id="password" placeholder="Contraseña"><br><br>
                             <button type="button" class="btn btn-outline-dark" id="btn-login" onclick="registrar()">Ingresar</button>
                         </form>
                     </div>
@@ -45,6 +45,7 @@
               include('php/footer.php');
             ?>
 
+            <script src="js/validacion.js"></script>
             <script type="text/javascript" src="js/jquery.min.js"></script>
             <script>
                 $("#btn-login").click(function(){
@@ -78,6 +79,6 @@
 
 
 <script src="js/bootstrap.min.js"></script>
-<script src="js/validacion.js"></script>
+
 </body>
 </html>

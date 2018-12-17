@@ -30,6 +30,7 @@
         <div class="container" style="text-align: center">
           <h1 style="font-family: Candara;">Nombre: <?php echo $_SESSION["nombre"]?></h1>
           <h3 style="font-family: Candara;">Carrera: <?php echo $_SESSION["carrera"]?></h3>
+          <h5 style="font-family: Candara;">Centro Universitario: <?php echo $_SESSION["centro"]?></h5>
         </div>
 
         <br>
