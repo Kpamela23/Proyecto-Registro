@@ -3,3 +3,5 @@
 {"usuario":"5120","password":"asd.456","tipoUsuario":"docente","nombre":"kpamela","carrera":"ninguna"}
 {"usuario":"7890","password":"asd.456","tipoUsuario":"jefe","nombre":"kmichelle","carrera":"ninguna"}
 {"usuario":"123456","password":"asd.456","tipoUsuario":"estudiante","nombre":"amartinez","carrera":"Fisica", "centro":"unah-vs"}
+{"usuario":"09876","password":"asd.456","tipoUsuario":"estudiante","nombre":"AriPerez","carrera":"Astronomia y Astrofisica", "centro":"CU"}
+{"usuario":"23457","password":"asd.456","tipoUsuario":"estudiante","nombre":"asd","carrera":"Nutricion", "centro":"aguan"}
