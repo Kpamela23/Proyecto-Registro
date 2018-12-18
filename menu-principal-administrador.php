@@ -146,21 +146,21 @@
                <h5 class="card-title">
 
                       <!-- Button trigger modal -->
-                      <button id="btn-adicionar-seccion" type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">
+                      <button id="btn-adicionar-seccion"  type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">
                        Crear Sección
                       </button>
                       <!-- Modal -->
-                      <div class="modal fade" id="modal-seccion" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                      <div class="modal fade" id="btn-adicionar-seccion " tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
               <div class="modal-dialog" role="document">
               <div class="modal-content">
                <div class="modal-header">
-               <h5 class="modal-title" id="exampleModalLongTitle">Llenar el siguiente Formulario</h5>
+               <h5 class="modal-title" id="btn-adicionar-seccion">Llenar el siguiente Formulario</h5>
                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                <span aria-hidden="true">&times;</span>
                 </button>
                 </div>
                 <div class="modal-body">
-                <form>
+                <form id="btn-adicionar-seccion">
                      <div class="form-group">
                       <input type="text" class="form-control" placeholder="Codigo">
                       <br>
@@ -185,7 +185,7 @@
             </div>
             </div>
             </h5>
-             <p class="card-text">Nueva sección</p>
+             <p class="card-text">Crear Nueva sección</p>
              </div>
             </div>
                         

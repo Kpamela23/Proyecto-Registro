@@ -72,12 +72,6 @@
     </div>
     
     <br>
-
-    <div class="n"><p>  <b><font color="#151a2e "  size="7"><marquee class="container-fluid"  scrollamount="5" bgcolor="#FFD433" style="padding: 20px">No olvides consultar tu calendario de matricula</marquee>    </font></b></p>
-    <a href="img/calendarioIII2018.png">
-      <img class="leftAlone" src="img/calendario-de-eventos.png" alt=""  style="display: block; margin-left: auto; margin-right: auto;" width="1105" height="383">
-      
-   </a>
     <br>
     <br><br>
   
@@ -124,6 +118,12 @@
 
     <br>
     <br>
+
+    <div class="n"><p>  <b><font color="#151a2e "  size="7"><marquee class="container-fluid"  scrollamount="5" bgcolor="#FFD433" style="padding: 20px">No olvides consultar tu calendario de matricula</marquee>    </font></b></p>
+    <a href="img/calendarioIII2018.png">
+      <img class="leftAlone" src="img/calendario-de-eventos.png" alt=""  style="display: block; margin-left: auto; margin-right: auto;" width="1105" height="383">
+      
+   </a>
     <br>
     <br>
     <br>
