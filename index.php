@@ -14,15 +14,16 @@
     
       <?php
   
-        include('php/paginas/header.php');
-        include('php/paginas/navbar.php');
+        include('php/header.php');
+        include('php/navbar.php');
        
 
       
       ?> 
   
     
-      <br> <br> 
+      <br> 
+      <div class="n"><p>  <b><font color="#151a2e "  size="7"><marquee class="container-fluid"  scrollamount="5" bgcolor="#FFD433" style="padding: 20px">Bienvenido a Territorio Puma</marquee>    </font></b></p>
      
     <div>
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -71,18 +72,23 @@
     </div>
     
     <br>
+
+    <div class="n"><p>  <b><font color="#151a2e "  size="7"><marquee class="container-fluid"  scrollamount="5" bgcolor="#FFD433" style="padding: 20px">No olvides consultar tu calendario de matricula</marquee>    </font></b></p>
+    <a href="img/calendarioIII2018.png">
+      <img class="leftAlone" src="img/calendario-de-eventos.png" alt=""  style="display: block; margin-left: auto; margin-right: auto;" width="1105" height="383">
+      
+   </a>
     <br>
-    <br><br>
     <br><br>
   
 
     <div class="container">
                 <div class="card-group">
-                        <div class="card">
+                        <div class="card" >
                             <a href="#">
-                              <img class="card-img-top " src="img/vision.png" alt="Card image cap" >
+                              <img class="card-img-top " src="img/vision.png" alt="Card image cap"  >
                             </a>
-                          <div class="card-body">
+                          <div class="card-body">  
                             <p class="card-text" style="font-family: Candara; color: black;" align="justify"> 
                             Una institución líder de la educación superior nacional e internacional; 
                             protagonista en la transformación de la sociedad hondureña hacia el desarrollo humano sostenible con recursos 
@@ -109,7 +115,7 @@
                             Nuestro compromiso es contribuir a través de la formación de profesionales, la investigación y la vinculación universidad-sociedad 
                             al desarrollo humano sostenible del país y por medio de la ciencia y la cultura que generamos, contribuir a que toda Honduras
                             participe de la universalidad y a que se desarrolle en condiciones de equidad y humanismo, atendiendo la pertinencia académica para 
-                            las diversas necesidades regionales y el ámbito nacional.
+                            las diversas necesidades regionales y el ámbito nacional. 
                             </p>
                           </div>
                         </div>
@@ -122,9 +128,10 @@
     <br>
     <br>
     
+    
     <?php
 
-      include('php/paginas/footer.php');
+      include('php/footer.php');
 
     ?>
     

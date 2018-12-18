@@ -49,3 +49,7 @@ a{
     color: black;
 }
 
+@font-face{
+    font-family: Sans;
+    src: url(css/fonts/PT_Sans-Web-Regular.ttf);
+}

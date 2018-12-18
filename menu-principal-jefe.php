@@ -18,8 +18,8 @@
 
         <?php
 
-          include('php/paginas/header.php');
-          include('php/paginas/navbar2.php');
+          include('php/header.php');
+          include('php/navbar2.php');
 
         ?>
 <br><br>
@@ -69,7 +69,7 @@
 
         <?php
 
-          include('php/paginas/footer.php');
+          include('php/footer.php');
       
         ?>
 
@@ -78,3 +78,4 @@
 <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
+
