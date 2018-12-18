@@ -13,6 +13,7 @@
     <link rel="icon" href="img/logo-unah.ico">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/estilos.css" rel="stylesheet">  
+    <link href="fontawesome/css/all.css" rel="stylesheet"> 
 </head>
 <body>
 
@@ -31,57 +32,32 @@
 
         <br><br><br><br>
         <div class="container">
-                <div class="card-group">
-                        <div class="card">
-                            <a href="#">
-                              <img class="card-img-top" src="img/historial-modulo.png" alt="Card image cap" >
-                            </a>
-                          <div class="card-body">
-                            <h5 class="card-title">
-                                <a href="#">Historial Academico</a> 
-                            </h5>
-                            <p class="card-text"> Aqui puedes ver tu historial academico</p>
-                          </div>
-                        </div> &nbsp; &nbsp; &nbsp; &nbsp;
-                        <div class="card">
-                            <a href="#">
-                                <img class="card-img-top" src="img/matricula-modulo.png" alt="Card image cap">
-                            </a>
-                          <div class="card-body">
-                            <h5 class="card-title">
-                                <a href="matricula.php"> Matricula</a>
-                            </h5>
-                            <p class="card-text">Realiza tu matricula del periodo</p>
-                          </div>
-                        </div>&nbsp; &nbsp; &nbsp; &nbsp;
+               
+          <i style="color:#2d6c9f; font-size:50px" class="fas fa-book">
+            &nbsp; &nbsp;&nbsp;
+            <a href="matricula.php" style="font-size:30px; font-family: Sans;"> Matricula</a>
+          </i> 
+
+          <br><br><br>
+          <br>
+
+          <i style="color:#2d6c9f; font-size:50px" class="fas fa-clipboard-list">
+            &nbsp; &nbsp;&nbsp;
+            <a href="#" style="font-size:30px; font-family: 'Raleway', sans serif;"> Historial Academico</a>
+          </i> 
+
+          <br><br><br>
+          <br>
+            
+
+          <i style="color: #2d6c9f; font-size:50px" class="fas fa-user-check">
+            &nbsp; &nbsp;
+            <a href="#" style="font-size:30px; font-family: 'Raleway', sans serif;">Evaluar Docentes</a>
+          </i>  
                         
+                                
 
-                </div> <br><br>
-
-                <div class="card-group">
-                        <div class="card">
-                            <a href="#">
-                                <img class="card-img-top" src="img/calificaciones.png" alt="Card image cap">
-                            </a>
-                          <div class="card-body">
-                            <h5 class="card-title">
-                                <a href="#">Calificaciones del Periodo</a>
-                            </h5>
-                            <p class="card-text"> Aqui podras ver tus caliicaciones del periodo</p>
-                          </div>
-                        </div> &nbsp; &nbsp; &nbsp; &nbsp;
-                        ;
-                        <div class="card">
-                            <a href="#">
-                                <img class="card-img-top" src="img/evaluar.png" alt="Card image cap">
-                            </a>
-                          <div class="card-body">
-                            <h5 class="card-title">
-                                <a href="#">Evaluar Docentes</a>
-                            </h5>
-                            <p class="card-text">podras Evaluar a tus Docentes</p>
-                          </div>
-                        </div>
+                            
                 </div>
         </div>
         <br>
