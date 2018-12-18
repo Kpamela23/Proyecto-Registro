@@ -25,6 +25,8 @@
             return;
     }        
 
+
+    
     function crearNuevaCarpeta($tipoUsuario){
         mkdir("../data/".$tipoUsuario."/".$_POST["usuario"]);
         switch($_POST['opcion']){
