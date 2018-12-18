@@ -32,41 +32,19 @@
         <br><br><br><br>
         <div class="container">
                 <div class="card-group">
-                        <div class="card">
-                                <a href="#">
-                                <img class="card-img-top" src="img/seccion3.png" alt="Card image cap">
-                                </a>
-                        <div class="card-body">
-                                 <h5 class="card-title">
-                                        <!-- Button trigger modal -->
-                                        <button id="btn-adicionar-seccion"  type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal-seccion">
-                                         Crear Sección
-                                        </button>            
-                                </h5>
-             <p class="card-text">Crear Nueva sección</p>
-             </div>
-            </div>
-                        
-           </div>               
-        </div>
-         
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
+                <div class="card">
+             <a href="#">
+              <img class="card-img-top" src="img/seccion3.png" alt="Card image cap">
+              </a>
+              <div class="card-body">
+               <h5 class="card-title">
 
-
-        
-
-        <?php
-
-          include('php/footer.php');
-      
-        ?>
-                  <!-- Modal -->
-                  <div class="modal fade" id="modal-seccion" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                      <!-- Button trigger modal -->
+                      <button id="btn-adicionar-seccion"  type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal-seccion">
+                       Crear Sección
+                      </button>
+                      <!-- Modal -->
+                      <div class="modal fade" id="modal-seccion " tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
               <div class="modal-dialog" role="document">
               <div class="modal-content">
                <div class="modal-header">
@@ -98,6 +76,29 @@
             </div>
             </div>
             </div>
+            </h5>
+             <p class="card-text">Crear Nueva sección</p>
+             </div>
+            </div>
+                        
+           </div>               
+        </div>
+         
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+
+        
+
+        <?php
+
+          include('php/footer.php');
+      
+        ?>
 
 
 <script src="js/jquery.min.js"></script>
