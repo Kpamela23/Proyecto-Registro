@@ -12,7 +12,8 @@
     <title>Menu Principal Administrador</title>
     <link rel="icon" href="img/logo-unah.ico">
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/estilos.css" rel="stylesheet">   
+    <link href="css/estilos.css" rel="stylesheet">
+    <link href="css/estilos2.css" rel="stylesheet">    
 </head>
 <body>
         <?php
@@ -30,49 +31,168 @@
         
         <br><br><br><br>
         <div class="container">
-                <div class="card-group">
-                        <div class="card">
-                            <a href="#">
-                              <img class="card-img-top imagen:hover" src="img/adicionar-estudiante.png" alt="Card image cap" >
-                            </a>
-                          <div class="card-body">
-                            <h5 class="card-title">
-                                <a href="#">Adicionar Estudiantes</a> 
-                            </h5>
-                            <p class="card-text"> Matricular un nuevo estudiante</p>
-                          </div>
-                        </div> &nbsp; &nbsp; &nbsp; &nbsp;
-                        <div class="card">
-                            <a href="#">
-                                <img class="card-img-top" src="img/adicionar-docente.png" alt="Card image cap">
-                            </a>
-                          <div class="card-body">
-                            <h5 class="card-title">
-                                <a href="matricula.html">Adicionar docente</a>
-                            </h5>
-                            <p class="card-text">Matricular un nuevo docente</p>
-                          </div>
-                        </div>&nbsp; &nbsp; &nbsp; &nbsp;
-                        <div class="card">
-                            <a href="#">
-                                <img class="card-img-top" src="img/creacion-secciones.png" alt="Card image cap">
-                            </a>
-                          <div class="card-body">
-                            <h5 class="card-title">
-                                <a href="#"> Crear Sección</a>
-                            </h5>
-                            <p class="card-text">Nueva sección</p>
-                          </div>
-                        </div>
-                </div>               
-        </div>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
+          <div class="card-group " >
+          <div class="card " >
+             <a href="#">
+            <img class="card-img-top imagen:hover grow:hover" src="img/estudiante.png" alt="Card image cap" >
+            </a>
+            <div class="card-body">
+            <h5 class="card-title">
+                                
+            <!-- Button trigger modal -->
+            <button type="button" id="btn-adicionar-alumno" class="btn btn-primary" data-toggle="modal" data-target="#modal-alumno">
+             Adicionar Estudiante
+            </button>
 
+            <!-- Modal -->
+             <div class="modal fade" id="modal-alumno" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+             <div class="modal-dialog" role="document">
+             <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">Llenar el siguiente Formulario</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <form>
+                  <div class="form-group">
+                  <input id="Usuario" type="text" class="form-control" placeholder="Codigo de Usuario">
+                  <br>
+                  <input id="Password"type="text" class="form-control" placeholder="Contraseña">
+                  <br>
+                  <input id="Nombre" type="text" class="form-control" placeholder="Nombre de Usuario">
+                  <br>
+                  <input id="Carrera" type="text" class="form-control" placeholder="Carrera">
+                  <br>
+                  <input id="CE" type="text" class="form-control" placeholder="Centro de Estudio">
+                    </div>
+                </form>
+            </div>
+          <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+          <button type="button" class="btn btn-primary" id="btn-agregar-estudiante">Adicionar</button>
+          </div>
+              </div>
+            </div>
+          </div>
+          </h5>
+           <p class="card-text">Matricular un nuevo Estudiante</p>
+            </div>
+      </div> &nbsp; &nbsp; &nbsp; &nbsp;
+
+
+         <div class="card">
+           <a href="#">
+           <img class="card-img-top" src="img/docente2.png" alt="Card image cap">
+          </a>
+            <div class="card-body">
+            <h5 class="card-title">  
+                      <!-- Button trigger modal -->
+                      <button id="btn-adicionar-docente" type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal-docente">
+                      Adicionar Docente
+                      </button>
+
+                      <!-- Modal -->
+             <div class="modal fade" id="modal-docente" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+             <div class="modal-dialog" role="document">
+             <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">Llenar el siguiente Formulario</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+              <form>
+                                <div class="form-group">
+
+                                <input type="text" class="form-control" id="codigo-maestro" placeholder="Codigo de Usuario">
+                                <br>
+                                <input type="text" class="form-control" placeholder="Contraseña" id="pass" name="txt-nombre">
+                                <br>
+                                <input type="text" class="form-control" placeholder="Nombre de Usuario" id="nombre-e" name="txt-nombre">
+                                <br>
+                                <input type="text" class="form-control" placeholder="Carrera" id="carrera" name="txt-nombre">
+                                <br>
+                                <input type="text" class="form-control" placeholder="Centro" id="centro-e" name="txt-nombre">
+                                <br>
+                               </div>
+
+                              </form>
+            </div>
+          <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+           <button type="button" class="btn btn-primary" id="adicionar-maestro">Adicionar</button>
+           </div>
+            </div>
+            </div>
+            </div>
+            </h5>
+             <p class="card-text">Matricular un nuevo docente</p>
+             </div>
+          </div>&nbsp; &nbsp; &nbsp; &nbsp;
+        
+
+             <div class="card">
+             <a href="#">
+              <img class="card-img-top" src="img/seccion3.png" alt="Card image cap">
+              </a>
+              <div class="card-body">
+               <h5 class="card-title">
+
+                      <!-- Button trigger modal -->
+                      <button id="btn-adicionar-seccion"  type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal-seccion">
+                       Crear Sección
+                      </button>
+                      <!-- Modal -->
+                      <div class="modal fade" id="modal-seccion " tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+              <div class="modal-content">
+               <div class="modal-header">
+               <h5 class="modal-title">Llenar el siguiente Formulario</h5>
+               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+               <span aria-hidden="true">&times;</span>
+                </button>
+                </div>
+                <div class="modal-body">
+                <form >
+                     <div class="form-group">
+                      <input type="text" class="form-control" id="codigo-seccion" placeholder="Codigo">
+                      <br>
+                      <input type="text" class="form-control" placeholder="Asignatura" id="asignatura-seccion" name="txt-nombre">
+                      <br>
+                      <input type="text" class="form-control" placeholder="Unidad Valorativa" id="uv-seccion" name="txt-nombre" >
+                      <br>
+                       <input type="text" class="form-control" placeholder="Hora" id="hora-seccion" name="txt-nombre">
+                       <br>
+                      <input type="text" class="form-control" placeholder="Centro" id="centro-seccion" name="txt-nombre">
+                        </div>
+
+                 </form>
+            </div>
+            <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+           <button type="button" class="btn btn-primary" id="btn-agregar-seccion">Adicionar</button>
+           </div>
+            </div>
+            </div>
+            </div>
+            </h5>
+             <p class="card-text">Crear Nueva sección</p>
+             </div>
+            </div>
+                        
+           </div>               
+        </div>
+         
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      
         <?php
 
           include('php/footer.php');
@@ -82,5 +202,7 @@
 
 <script src="js/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<script src="js/controlador.js"></script>
 </body>
 </html>
+

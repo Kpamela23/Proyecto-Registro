@@ -38,9 +38,9 @@
                             </a>
                           <div class="card-body">
                             <h5 class="card-title">
-                                <a href="#">Listado de Alumnos</a> 
+                                <a href="#">Secciones Asignadas</a> 
                             </h5>
-                            <p class="card-text"> Aqui puedes ver tus estudiantes</p>
+                            <p class="card-text"> Aqui puedes ver tus secciones</p>
                           </div>
                         </div> 
                         &nbsp; &nbsp; &nbsp; &nbsp;

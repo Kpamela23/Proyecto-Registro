@@ -97,6 +97,22 @@
                                         <br>
                               <select class="form-control" name="seccion" id="seccion">
                                 <option value="0">seleccione</option>
+                                 <?php
+                                  $seccion = $_SESSION['carrera'];
+                                  $archivo = fopen("data/Secciones.json","r");
+                                  while(($linea = fgets($archivo))){
+                                    $registro = json_decode($linea,true);
+                                    $archivo2 = fopen("carreras/".$_SESSION['carrera'].".json", "r");
+                                    while(($otraLinea = fgets($archivo2))){
+                                      $registro2 = json_decode($otraLinea,true); 
+                                      if($registro['asignatura'] == $registro2['asignatura'])
+                                        echo  '<option>'.$registro['seccion'] . "-" . $registro['uv']."-". $registro['dias'].'</option>';  
+                                    }
+                                  }
+                                 
+                                  
+                                    fclose($archivo);
+                                ?>
                               </select>
                             </div>
                           </div>
