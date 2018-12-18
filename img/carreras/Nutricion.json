@@ -1,0 +1,73 @@
+{"codigo":"EG-011", "asignatura":"Español", "uv":"4", "requisito":"ninguno"}
+{"codigo":"BI-130", "asignatura":"Educación Ambiental", "uv":"3", "requisito":"ninguno"}
+{"codigo":"SC-101", "asignatura":"Sociologia", "uv":"4", "requisito":"ninguno"}
+{"codigo":"HH-101", "asignatura":"Historia de Honduras", "uv":"4", "requisito":"ninguno"}
+{"codigo":"IN-101", "asignatura":"Ingles I", "uv":"3", "requisito":"ninguno"}
+{"codigo":"IN-102", "asignatura":"Ingles II", "uv":"", "requisito":"IN-101"}
+{"codigo":"IN-103", "asignatura":"Ingles III", "uv":"3", "requisito":"IN-102"}
+{"codigo":"MM-112", "asignatura":"Matematica", "uv":"5", "requisito":"MM-201"}
+{"codigo":"QQ-111", "asignatura":"Quimica Medica I", "uv":"5", "requisito":"ninguno"}
+{"codigo":"QQ-112", "asignatura":"Quimica Medica II", "uv":"", "requisito":"QQ-111"}
+{"codigo":"QQ-321", "asignatura":"Bioquimica", "uv":"", "requisito":"QQ-112,BI-123,MM-112"}
+{"codigo":"MM-241", "asignatura":"Bioestadistica", "uv":"", "requisito":"MM-112"}
+{"codigo":"NUT-101", "asignatura":"Introduccion a la Nutricion y Bioetica", "uv":"", "requisito":"QQ-111,BI-123"}
+{"codigo":"NUT-102", "asignatura":"Desarrollo Humano y Comunicacion", "uv":"", "requisito":"NUT-101"}
+{"codigo":"NUT-011", "asignatura":"Metodologia de la Investigacion", "uv":"", "requisito":"EG-011,MM-241"}
+{"codigo":"NUT-103", "asignatura":"Antropologia Alimentaria", "uv":"", "requisito":"FF-101,SC-101,NUT-101"}
+{"codigo":"NUT-012", "asignatura":"Morfosiologia Aplicada a la Nutricion", "uv":"", "requisito":"QQ-321,BI-123"}
+{"codigo":"NUT-104", "asignatura":"Nutricion Basica", "uv":"", "requisito":"QQ-321,NUT-101"}
+{"codigo":"NUT-113", "asignatura":"Socioeconmia Alimentaria Nutricional", "uv":"", "requisito":"NUT-103"}
+{"codigo":"NUT-114", "asignatura":"Computacion e Informatica aplicada a la Nutricion", "uv":"", "requisito":"MM-241,NUT- 104"}
+{"codigo":"NUT-204", "asignatura":"Evaluacion del Estado Nutricional", "uv":"4", "requisito":"NUT-104,NUT-011,NUT-114"}
+{"codigo":"NUT-205", "asignatura":"Bioquimica de los Alimento", "uv":"4", "requisito":"QQ-321,NUT-104"}
+{"codigo":"NUT-206", "asignatura":"Microbiologia e higiene de los alimentos", "uv":"4", "requisito":"NUT-104,NUT-012"}
+{"codigo":"NUT-207", "asignatura":"Nutrición en el ciclo de Vida", "uv":"5", "requisito":"NUT-104,NUT-012"}
+{"codigo":"NUT-208", "asignatura":"Fisiopatología aplicada a la Nutrición ", "uv":"4", "requisito":"NUT-104,NUT-012"}
+{"codigo":"NUT-209", "asignatura":"Selección y preparación de los Alimentos I", "uv":"3", "requisito":"NUT-104"}
+{"codigo":"NUT-307 ", "asignatura":"Nutrición Pública", "uv":"4", "requisito":"NUT-204,NUT-207"}
+{"codigo":"NUT-306", "asignatura":"Tecnología de los Alimentos", "uv":"3", "requisito":"NUT-205,NUT-206"}
+{"codigo":"NUT-302", "asignatura":"Información, educación y Comunicación en Nutrición ", "uv":"3", "requisito":"NUT-102,NUT-011, NUT-207"}
+{"codigo":"NUT-309", "asignatura":"Selección y Preparación de los alimentos II", "uv":"3", "requisito":"NUT-209"}
+{"codigo":"NUT-310", "asignatura":"Dietética", "uv":"4", "requisito":"NUT-207,NUT-209"}
+{"codigo":"NUT-311 ", "asignatura":"Epidemiología aplicada a la Nutrición", "uv":"3", "requisito":"NUT-011"}
+{"codigo":"NUT-407", "asignatura":"Investigación en Nutrición Pública ", "uv":"4", "requisito":"NUT-307"}
+{"codigo":"NUT-402", "asignatura":"Promoción de la salud Aplicada a la Nutrición", "uv":"4", "requisito":"NUT-302,NUT-307"}
+{"codigo":"NUT-506", "asignatura":"Seguridad alimentaria y gestión del desarrollo", "uv":"3", "requisito":"NUT-311,NUT-402"}
+{"codigo":"NUT-507 ", "asignatura":"Nutrición comunitaria", "uv":"4", "requisito":"NUT-311,NUT-402"}
+{"codigo":"NUT-510 ", "asignatura":"Dietoterapia del niño y Adolescente", "uv":"5", "requisito":"NUT-204,NUT-207,NUT-310,NUT-208"}
+{"codigo":"NUT-511", "asignatura":"Dietetica Institucional", "uv":"5", "requisito":"NUT-309,NUT-310"}
+{"codigo":"NUT-603 ", "asignatura":"Dietoterapia del Adulto", "uv":"5", "requisito":"NUT-207,NUT-204,NUT-208,NUT-310"}
+{"codigo":"NUT-601 ", "asignatura":"Proyectos Integrales de Seguridad Alimentaria y Nutricional", "uv":"", "requisito":"NUT-506,NUT-507,NUT-407"}
+{"codigo":"NUT-512", "asignatura":"Nutrición Preventiva", "uv":"", "requisito":"NUT-402"}
+{"codigo":"NUT-602 ", "asignatura":"Formulación y Ejecución de Políticas en Seguridad Alimentaria y Nutricional ", "uv":"", "requisito":"NUT-506,NUT-507,NUT-407"}
+{"codigo":"NUT-604", "asignatura":"Seminario de Alimentación y nutrición en situaciones especiales ", "uv":"", "requisito":"NUT-507,NUT-510,NUT-307,NUT-603"}
+{"codigo":"NUT-605", "asignatura":"Administración de Servicios de Alimentación y Nutrición 4", "uv":"", "requisito":"NUT-511"}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

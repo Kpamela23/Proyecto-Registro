@@ -1,0 +1,50 @@
+{"codigo":"EG-011", "asignatura":"Español", "uv":"4", "requisito":"ninguno"}
+{"codigo":"BI-130", "asignatura":"Educación Ambiental", "uv":"3", "requisito":"ninguno"}
+{"codigo":"SC-101", "asignatura":"Sociologia", "uv":"4", "requisito":"ninguno"}
+{"codigo":"HH-101", "asignatura":"Historia de Honduras", "uv":"4", "requisito":"ninguno"}
+{"codigo":"IN-101", "asignatura":"Ingles I", "uv":"3", "requisito":"ninguno"}
+{"codigo":"IN-102", "asignatura":"Ingles II", "uv":"", "requisito":"IN-101"}
+{"codigo":"IN-103", "asignatura":"Ingles III", "uv":"3", "requisito":"IN-102"}
+{"codigo":"FF-101", "asignatura":"Filosofía", "uv":"4", "requisito":"ninguno"}
+{"codigo":"MM-110", "asignatura":"Matemática I", "uv":"5", "requisito":"ninguno"}
+{"codigo":"MM-111", "asignatura":"Geometría y Trigonometría", "uv":"5", "requisito":"ninguno"}
+{"codigo":"MM-201", "asignatura":"Cálculo I", "uv":"5", "requisito":"MM-110,MM-111"}
+{"codigo":"MM-211", "asignatura":"Vectores y Matrices", "uv":"3", "requisito":"MM-110,MM-111"}
+{"codigo":"MM-314", "asignatura":"Programación I", "uv":"3", "requisito":"MM-211"}
+{"codigo":"MM-202", "asignatura":"Cálculo II", "uv":"5", "requisito":"MM-201"}
+{"codigo":"MM-411", "asignatura":"Ecuaciones Diferenciales", "uv":"3", "requisito":"MM-202"}
+{"codigo":"MM-401", "asignatura":"Estadistica", "uv":"3", "requisito":"MM-201"}
+{"codigo":"FS-100", "asignatura":"Fisica I", "uv":"5", "requisito":"MM-201"}
+{"codigo":"FS-200", "asignatura":"Fisica II", "uv":"5", "requisito":"FS-100,MM-202"}
+{"codigo":"DQ-101", "asignatura":"Dibujo I", "uv":"2", "requisito":"MM-211"}
+{"codigo":"DQ-102", "asignatura":"Dibujo II", "uv":"2", "requisito":"DQ-101"}
+{"codigo":"IS-110", "asignatura":"Introduccion a la Ingenieria en Sistemas", "uv":"3", "requisito":"ninguno"}
+{"codigo":"IS-210", "asignatura":"Programacion II", "uv":"4", "requisito":"MM3-14"}
+{"codigo":"IS-311", "asignatura":"Circuitos Electricos para Ing. en Sistemas", "uv":"3", "requisito":"MM-411,FS-100"}
+{"codigo":"IS-310", "asignatura":"Algoritmos y Estructura de Datos", "uv":"4", "requisito":"IS-210"}
+{"codigo":"IS-410", "asignatura":"Programacion Orientada a Objetos", "uv":"5", "requisito":"IS-310"}
+{"codigo":"IS-411", "asignatura":"Electronca para I.S.", "uv":"3", "requisito":"IS-311"}
+{"codigo":"IS-412", "asignatura":"Sistemas Operativos I", "uv":"5", "requisito":"IS-310,MM-420"}
+{"codigo":"IS-501", "asignatura":"Base de Datos I", "uv":"5", "requisito":"MM-401,IS-410"}
+{"codigo":"IS-510", "asignatura":"Instalaciones Electricas", "uv":"3", "requisito":"IS-311"}
+{"codigo":"IS-511", "asignatura":"Redes de Datos I", "uv":"4", "requisito":"IS-411"}
+{"codigo":"IS-512", "asignatura":"Sistemas Operativos II", "uv":"5", "requisito":"IS-412"}
+{"codigo":"IS-601", "asignatura":"Base de Datos II", "uv":"4", "requisito":"IS-501"}
+{"codigo":"IS-603", "asignatura":"Arquitectura de Computadoras", "uv":"4", "requisito":"IS-511"}
+{"codigo":"IS-513", "asignatura":"Lenguajes de Programacion", "uv":"5", "requisito":"IS-410"}
+{"codigo":"IS-611", "asignatura":"Redes de Datos II", "uv":"4", "requisito":"IS-511"}
+{"codigo":"IS-711", "asignatura":"Diseño Digital", "uv":"4", "requisito":"IS-603"}
+{"codigo":"IS-602", "asignatura":"Sistemas de Informacion", "uv":"4", "requisito":"IS-513"}
+{"codigo":"IS-811", "asignatura":"Seguridad Informatica", "uv":"4", "requisito":"IS-711,IS-512"}
+{"codigo":"IS-720", "asignatura":"Administracion I", "uv":"4", "requisito":"MM-420"}
+{"codigo":"IS-702", "asignatura":"Analisis y Diseño de Sistemas", "uv":"4", "requisito":"IS-602"}
+{"codigo":"IS-721", "asignatura":"Contabilidad I", "uv":"4", "requisito":"IS-720"}
+{"codigo":"IS-903", "asignatura":"Auditoria Informatica", "uv":"3", "requisito":"IS-811"}
+{"codigo":"IS-701", "asignatura":"Inteligencia Artificial", "uv":"4", "requisito":"IS-601,IS-602"}
+{"codigo":"IS-802", "asignatura":"Inteligencia el Software", "uv":"4", "requisito":"IS-702"}
+{"codigo":"IS-820", "asignatura":"Finanzas Administrativas", "uv":"4", "requisito":"IS-721"}
+{"codigo":"IS-902", "asignatura":"Industria del Software", "uv":"4", "requisito":"IS-802"}
+{"codigo":"IS-904", "asignatura":"Gerencia Informatica", "uv":"4", "requisito":"IS-811"}
+{"codigo":"IS-906", "asignatura":"Topicos Especiales y Avanzados", "uv":"5", "requisito":"IS-904"}
+{"codigo":"IS-905", "asignatura":"Economia Digital", "uv":"5", "requisito":"IS-820"}
+{"codigo":"IS-115", "asignatura":"Seminario de Investigacion", "uv":" ", "requisito":""}

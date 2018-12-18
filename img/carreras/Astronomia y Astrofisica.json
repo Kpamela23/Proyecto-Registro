@@ -1,0 +1,47 @@
+{"codigo":"EG-011", "asignatura":"Español", "uv":"4", "requisito":"ninguno"}
+{"codigo":"SC-101", "asignatura":"Sociologia", "uv":"4", "requisito":"ninguno"}
+{"codigo":"HH-101", "asignatura":"Historia de Honduras", "uv":"4", "requisito":"ninguno"}
+{"codigo":"QQ-100", "asignatura":"Quimica Fundamental", "uv":"4", "requisito":"MM-110,MM-111"}
+{"codigo":"IN-101", "asignatura":"Ingles I", "uv":"3", "requisito":"ninguno"}
+{"codigo":"IN-102", "asignatura":"Ingles II", "uv":"", "requisito":"IN-101"}
+{"codigo":"IN-103", "asignatura":"Ingles III", "uv":"3", "requisito":"IN-102"}
+{"codigo":"MM-110", "asignatura":"Matemática I", "uv":"5", "requisito":"ninguno"}
+{"codigo":"MM-111", "asignatura":"Geometría y Trigonometría", "uv":"5", "requisito":"ninguno"}
+{"codigo":"MM-201", "asignatura":"Cálculo I", "uv":"5", "requisito":"MM-110,MM-111"}
+{"codigo":"MM-211", "asignatura":"Vectores y Matrices", "uv":"3", "requisito":"MM-110,MM-111"}
+{"codigo":"MM-314", "asignatura":"Programación", "uv":"3", "requisito":"MM-211"}
+{"codigo":"MM-202", "asignatura":"Cálculo II", "uv":"5", "requisito":"MM-201"}
+{"codigo":"MM-411", "asignatura":"Ecuaciones Diferenciales", "uv":"3", "requisito":"MM-202"}
+{"codigo":"MM-502", "asignatura":"Variable Compleja", "uv":"3", "requisito":"MM-202"}
+{"codigo":"MM-401", "asignatura":"Estadistica", "uv":"3", "requisito":"MM-201"}
+{"codigo":"FS-100", "asignatura":"Fisica I", "uv":"5", "requisito":"MM-201"}
+{"codigo":"FS-200", "asignatura":"Fisica II", "uv":"5", "requisito":"FS-100,MM-202"}
+{"codigo":"FS-321", "asignatura":"Elec. y Magnetismo I", "uv":"5", "requisito":"FS-200,MM-411"}
+{"codigo":"FS-415", "asignatura":"Elec. y Magnetismo II", "uv":"5", "requisito":"FS-321"}
+{"codigo":"FS-371", "asignatura":"Fisica Moderna", "uv":"4", "requisito":"FS-381,MM-411"}
+{"codigo":"FS-381", "asignatura":"Mecanica I", "uv":"4", "requisito":"FS-200,MM-411"}
+{"codigo":"FS-481", "asignatura":"Term. y Mec. Est. I", "uv":"4", "requisito":"MM-411,FS-351"}
+{"codigo":"FS-425", "asignatura":"Optica", "uv":"4", "requisito":"FS-415"}
+{"codigo":"AAF-111", "asignatura":"Introduccion a la Astronomia", "uv":"3", "requisito":"ninguno"}
+{"codigo":"AAF-211", "asignatura":"Geologia", "uv":"4", "requisito":"QQ-100"}
+{"codigo":"AAF-321", "asignatura":"Fundamentos de Astronomia y Astrofisica", "uv":"4", "requisito":"AFF-111,IN-103"}
+{"codigo":"AAF-311", "asignatura":"Instrumentacion Astrofisica", "uv":"3", "requisito":"AAF-231"}
+{"codigo":"AAF-321", "asignatura":"Historia de la Astronomia", "uv":"3", "requisito":"HH-101,SC-101,FF-101"}
+{"codigo":"AAF-331", "asignatura":"Fisica Atomica y Molecular", "uv":"3", "requisito":"FS-415"}
+{"codigo":"AAF-411", "asignatura":"Fisica de fluidos", "uv":"4", "requisito":"FS-200,MM-411"}
+{"codigo":"AAF-412", "asignatura":"Analisis Espectral de Datos", "uv":"3", "requisito":"AAF-311"}
+{"codigo":"AAF-421", "asignatura":"Astronomia Clasica", "uv":"4", "requisito":"AAF-231"}
+{"codigo":"AAF-431", "asignatura":"Materia Interestelar", "uv":"3", "requisito":"T.A."} 
+{"codigo":"AAF-432", "asignatura":"Astronomia y Astrofisica del Sistema Solar", "uv":"3", "requisito":"T.A."}
+{"codigo":"AAF-433", "asignatura":"Fisica Nuclear y de particulas", "uv":"4", "requisito":"T.A."}
+{"codigo":"AAF-434", "asignatura":"Procesos radioactivos y fenomenos de transporte", "uv":"3", "requisito":"T.A."}
+{"codigo":"AAF-511", "asignatura":"Via Lactea", "uv":"3", "requisito":"T.A."}
+{"codigo":"AAF-512", "asignatura":"Interiores y evolucion estelar", "uv":"3", "requisito":"T.A."}
+{"codigo":"AAF-513", "asignatura":"Atmosferas Estelares", "uv":"3", "requisito":"T.A."}
+{"codigo":"AAF-514", "asignatura":"Espectroscopia", "uv":"3", "requisito":"T.A."}
+{"codigo":"AAF-521", "asignatura":"Tecnicas Fotometricas (electiva)", "uv":"3", "requisito":"T.A."}
+{"codigo":"AAF-522", "asignatura":"Tecnicas Espectrometricas(electiva)", "uv":"3", "requisito":"T.A."}
+{"codigo":"AAF-523", "asignatura":"Astrofisica Exttragalactica(electiva)", "uv":"3", "requisito":"T.A."}
+{"codigo":"AAF-524", "asignatura":"Cosmologia(electiva)", "uv":"3", "requisito":"T.A."}
+{"codigo":"AAF-551", "asignatura":"Seminario de Investigacion", "uv":"4", "requisito":"T.A."}
+//T.A.= Todas las Anteriores
