@@ -1,5 +1,11 @@
 <?php
     
+    if($_POST["opcion"] == "1" || $_POST["opcion"] == "2"){
+        $archivo = fopen("../data/credenciales.json","a+");
+        fwrite($archivo, json_encode($_POST)."\n");
+        fclose($archivo);
+    } 
+
     switch($_POST["opcion"]){
         case "1":
             $archivo = fopen("../data/estudiantes/Usuarios.json","a+"); //
@@ -23,7 +29,7 @@
             break;
         default:
             return;
-    }        
+    }           
 
     function crearNuevaCarpeta($tipoUsuario){
         mkdir("../data/".$tipoUsuario."/".$_POST["usuario"]);

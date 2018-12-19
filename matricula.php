@@ -83,7 +83,7 @@
                                           $archivo = fopen("carreras/$carrera.json","r");
                                           while(($linea = fgets($archivo))){
                                               $registro = json_decode($linea,true);
-                                              echo  '<option>'.$registro['codigo'] . "   " . $registro['asignatura'].'</option>';  
+                                              echo  '<option value="'.$registro['codigo'].'">'.$registro['codigo'] . "   " . $registro['asignatura'].'</option>';  
                                               }
                                               fclose($archivo);
                                         ?>
@@ -96,23 +96,7 @@
                               </div>
                                         <br>
                               <select class="form-control" name="seccion" id="seccion">
-                                <option value="0">seleccione</option>
-                                 <?php
-                                  $seccion = $_SESSION['carrera'];
-                                  $archivo = fopen("data/Secciones.json","r");
-                                  while(($linea = fgets($archivo))){
-                                    $registro = json_decode($linea,true);
-                                    $archivo2 = fopen("carreras/".$_SESSION['carrera'].".json", "r");
-                                    while(($otraLinea = fgets($archivo2))){
-                                      $registro2 = json_decode($otraLinea,true); 
-                                      if($registro['asignatura'] == $registro2['asignatura'])
-                                        echo  '<option>'.$registro['seccion'] . "-" . $registro['uv']."-". $registro['dias'].'</option>';  
-                                    }
-                                  }
-                                 
-                                  
-                                    fclose($archivo);
-                                ?>
+                                <option value="0">seleccione</option>                                 
                               </select>
                             </div>
                           </div>
