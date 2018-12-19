@@ -107,7 +107,7 @@
                       <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
                         <button type="button" class="btn btn-primary" id="btn-matricular" onclick="matricular(<?php echo $usuario ?>)">Matricular</button>
-                        <p><b>CLASE MATRICULADA</b></p>
+                        
                       </div>                         
                     </div>
                   </div>
