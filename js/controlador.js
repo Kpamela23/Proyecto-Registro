@@ -86,3 +86,34 @@ $("#clase").change(function(){
 		}	
 	});
 });
+
+function matricular(usuario){
+
+	var horaInicio = parseInt($("#codigo-seccion").val());
+	var horaFinal = horaInicio + 100;	
+	var datosClase = $("#clase").val().split(" ");
+
+	var datos= `usuario=${usuario}
+			&codigoAsignatura=${datosClase[0]}
+			&asignatura=${datosClase[1]}
+			&uv=${$("#uv-seccion").val()}
+			&horaInicio=${horaInicio}
+			&horaFinal=${horaFinal}
+			&centro=${$("#centro-seccion").val()}
+			&dias=${$("#dias-seccion").val()}`;
+
+	console.log(datos);
+
+	$.ajax({
+		url:"ajax/matricula.php",
+		method:"POST",
+		dataType:"json",
+		data:datos,
+		success: function(respuesta){
+			console.log(respuesta);
+		},
+		error: function(error){
+			console.error(error);
+		}
+	});
+}

@@ -1,5 +1,6 @@
 <?php 
     session_start();  
+    $usuario = $_SESSION['usuario'];
     if (!isset($_SESSION["usuario"]))
         header("Location: no-autorizado.html");//Redireccion con PHP
 ?>
@@ -83,7 +84,7 @@
                                           $archivo = fopen("carreras/$carrera.json","r");
                                           while(($linea = fgets($archivo))){
                                               $registro = json_decode($linea,true);
-                                              echo  '<option value="'.$registro['codigo'].'">'.$registro['codigo'] . "   " . $registro['asignatura'].'</option>';  
+                                              echo  '<option value="'.$registro['codigo'].'">'.$registro['codigo'] . " " . $registro['asignatura'].'</option>';  
                                               }
                                               fclose($archivo);
                                         ?>
@@ -105,7 +106,8 @@
                       <br>
                       <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
-                        <button type="button" class="btn btn-primary">Matricular</button>
+                        <button type="button" class="btn btn-primary" id="btn-matricular" onclick="matricular(<?php echo $usuario ?>)">Matricular</button>
+                        <p><b>CLASE MATRICULADA</b></p>
                       </div>                         
                     </div>
                   </div>

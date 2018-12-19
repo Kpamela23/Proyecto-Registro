@@ -43,7 +43,7 @@
 
           <i style="color:#2d6c9f; font-size:50px" class="fas fa-clipboard-list">
             &nbsp; &nbsp;&nbsp;
-            <a href="#" style="font-size:30px; font-family: 'Raleway', sans serif;"> Historial Academico</a>
+            <a href="historial.php" style="font-size:30px; font-family: 'Raleway', sans serif;"> Historial Academico</a>
           </i> 
 
           <br><br><br>
